@@ -1,6 +1,6 @@
 ---
 tipo: conceito
-disciplina: Arquiteturas Multiagente
+disciplina: Sistemas Multiagentes
 status: a-entender
 tags: [multiagente, arquitetura]
 criado: 2026-09-13

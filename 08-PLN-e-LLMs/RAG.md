@@ -1,6 +1,6 @@
 ---
 tipo: conceito
-disciplina: RAG e Memória
+disciplina: Processamento de Linguagem Natural e LLMs
 status: entendido
 tags: [rag, memoria, embeddings]
 criado: 2026-09-13

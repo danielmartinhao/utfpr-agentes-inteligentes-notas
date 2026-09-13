@@ -5,6 +5,37 @@
 > de propósito — ciclos de edição diferentes e, geralmente, visibilidade
 > diferente (este aqui costuma fazer mais sentido como **privado**).
 
+## Estrutura de pastas
+
+| Pasta | Disciplina | Carga Horária | Datas das Aulas |
+| :-- | :-- | :-: | :-- |
+| `01-Programacao-Python-IA` | Programação Python para Inteligência Artificial | 30h | 11/09, 12/09, 25/09 e 26/09/2026 |
+| `02-Fundamentos-Agentes-Inteligentes` | Fundamentos de Agentes Inteligentes | 30h | 09/10, 10/10, 23/10 e 24/10/2026 |
+| `03-Matematica-Estatistica-IA` | Matemática e Estatística para Inteligência Artificial | 30h | 06/11, 07/11, 27/11 e 28/11/2026 |
+| `04-Computacao-Nuvem-IA` | Computação em Nuvem para Inteligência Artificial | 30h | 04/12, 05/12, 18/12 e 19/12/2026 |
+| `05-Aprendizado-de-Maquina` | Aprendizado de Máquina | 30h | 05/03, 06/03, 19/03 e 20/03/2027 |
+| `06-Redes-Neurais-Aprendizado-Profundo` | Redes Neurais e Aprendizado Profundo | 30h | 02/04, 03/04, 16/04 e 17/04/2027 |
+| `07-Ciencia-de-Dados-Big-Data` | Ciência de Dados e Big Data | 30h | 07/05, 08/05, 21/05 e 22/05/2027 |
+| `08-PLN-e-LLMs` | Processamento de Linguagem Natural e LLMs | 30h | 04/06, 05/06, 18/06 e 19/06/2027 |
+| `09-Engenharia-Prompt-IA-Generativa` | Engenharia de Prompt e Aplicações de IA Generativa | 30h | 06/08, 07/08, 20/08 e 21/08/2027 |
+| `10-Engenharia-Agentes-Autonomos` | Engenharia de Agentes Autônomos | 30h | 10/09, 11/09, 24/09 e 25/09/2027 |
+| `11-Sistemas-Multiagentes` | Sistemas Multiagentes | 30h | 15/10, 16/10, 05/11 e 06/11/2027 |
+| `12-Etica-Governanca-IA` | Ética e Governança em Sistemas Inteligentes | 30h | 26/11, 27/11, 10/12/2027 e 04/03/2028 |
+
+Cada pasta de disciplina já vem com uma nota `00-Visao-Geral.md` preenchida
+com carga horária e datas — use-a como ponto de partida e vá linkando as
+notas de conceito e de aula a partir dela.
+
+| Pasta extra | Uso |
+| :-- | :-- |
+| `00-Templates` | Modelos de nota (conceito, aula, projeto) |
+| `90-Projeto-Final` | Notas do projeto final/TCC |
+| `95-Notas-Diarias` | Uma nota por dia/aula de estudo |
+| `99-Referencias` | Papers, artigos, links externos |
+
+(Os prefixos `90`, `95`, `99` são de propósito — mantêm essas pastas
+sempre depois das 12 disciplinas na listagem por ordem alfabética.)
+
 ## Como usar
 
 1. Clone este repositório.
@@ -26,39 +57,3 @@ Instale o plugin **Obsidian Git** (via "Community plugins" dentro do Obsidian):
 
 Assim você não precisa lembrar de rodar `git add/commit/push` manualmente toda
 vez que termina de estudar.
-
-## Estrutura de pastas
-
-- `00-Templates/` — modelos de nota (conceito, aula, projeto)
-- `01-Fundamentos-IA/`
-- `02-LLMs-e-Prompting/`
-- `03-Arquiteturas-Multiagente/`
-- `04-RAG-e-Memoria/`
-- `05-Ferramentas-e-Function-Calling/`
-- `06-Avaliacao-e-Etica/`
-- `07-Frameworks/` (LangChain, AutoGen, CrewAI, etc.)
-- `08-Projeto-Final/`
-- `09-Notas-Diarias/` — uma nota por aula/dia de estudo
-- `10-Referencias/` — papers, artigos, links externos
-
-## Sistema de tags
-
-- Por disciplina: `#fundamentos-ia`, `#multiagente`, `#rag`, etc.
-- Por tipo: `#aula`, `#projeto`, `#leitura`
-- Por domínio: `#a-entender`, `#entendido`, `#dominado`
-  (também refletido no campo `status:` do frontmatter, útil pra usar com Dataview)
-
-## Plugins recomendados
-
-| Plugin | Para que serve aqui |
-|---|---|
-| **Templater** | Criar notas novas já com a estrutura dos templates |
-| **Dataview** | Montar tabelas automáticas (ex: "todas as notas com status: a-entender") |
-| **Excalidraw** | Desenhar diagramas de arquitetura de agentes à mão |
-| **Spaced Repetition** | Revisar conceitos-chave antes de provas |
-| **Graph Analysis** | Ver quais conceitos estão mais conectados (bons candidatos a revisão) |
-
-## Regra de integração com o Notion
-
-**Notion = o que fazer e quando. Obsidian = o que aprendi e como se conecta.**
-Cada card de entrega no Notion deve linkar para a pasta/nota correspondente aqui.
