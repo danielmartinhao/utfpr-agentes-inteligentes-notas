@@ -1,0 +1,27 @@
+# --- Obsidian ---
+# Ignora estado de janela/abas abertas (muda toda hora, gera diffs inúteis)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Cache local do Obsidian
+.obsidian/cache
+
+# Mantém versionado (propositalmente NÃO ignorado):
+# .obsidian/plugins/            -> quais plugins você usa
+# .obsidian/community-plugins.json
+# .obsidian/app.json
+# .obsidian/appearance.json
+# .obsidian/hotkeys.json
+
+# --- Sistema operacional ---
+.DS_Store
+Thumbs.db
+
+# --- Anexos grandes (ajuste conforme sua necessidade) ---
+# Descomente se você costuma colar PDFs/vídeos grandes nas notas
+# Anexos/*.pdf
+# Anexos/*.mp4
+
+# --- Editores ---
+.vscode/
+.idea/
